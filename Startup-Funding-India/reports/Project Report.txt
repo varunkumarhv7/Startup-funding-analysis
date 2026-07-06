@@ -1,0 +1,230 @@
+# **Project Report**
+
+## **Startup Funding Landscape in India – Trend and Sector Analysis**
+
+### **Submitted By**
+
+**Name:** VARUNKUMAR H V
+
+---
+
+# 1. Project Title
+
+**Startup Funding Landscape in India – Trend and Sector Analysis**
+
+---
+
+# 2. Objective
+
+The objective of this project is to analyze startup funding trends in India and build an interactive dashboard that enables users to explore funding patterns based on various filters. The dashboard helps identify investment trends across cities, industries, years, startups, and investment types.
+
+---
+
+# 3. Problem Statement
+
+India has witnessed significant growth in startup investments over the past decade. Analyzing this large amount of funding data manually is difficult. This project provides an interactive visualization platform to understand:
+
+* Which cities receive the highest funding
+* Which industries attract the most investment
+* Funding trends over the years
+* Popular investment types
+* Leading startups and investors
+
+---
+
+# 4. Tools & Technologies Used
+
+| Tool           | Purpose                  |
+| -------------- | ------------------------ |
+| Python         | Programming Language     |
+| Pandas         | Data Cleaning & Analysis |
+| Streamlit      | Dashboard Development    |
+| Plotly Express | Interactive Charts       |
+| VS Code        | Code Editor              |
+| Git & GitHub   | Version Control          |
+
+---
+
+# 5. Dataset
+
+The dataset contains startup funding information with the following columns:
+
+* Startup
+* Industry
+* Sub Vertical
+* City
+* Investors
+* Investment Type
+* Investment Amount (USD)
+* Date
+
+---
+
+# 6. Data Preprocessing
+
+The following preprocessing steps were performed:
+
+* Removed missing values
+* Converted Date column into datetime format
+* Created a new Year column
+* Cleaned Investment Amount values
+* Removed duplicate records
+* Standardized column names
+* Converted data into analysis-ready format
+
+---
+
+# 7. Dashboard Features
+
+### Filters
+
+The dashboard allows users to filter data using:
+
+* City
+* Industry
+* Year
+* Investment Type
+
+---
+
+### KPI Cards
+
+The dashboard displays:
+
+* Total Funding
+* Total Startups
+* Average Investment
+* Total Investors
+
+---
+
+### Visualizations
+
+#### 1. Year-wise Funding Trend
+
+* Interactive Line Chart
+* Shows growth in startup funding over the years.
+
+#### 2. Top 10 Cities by Funding
+
+* Bar Chart
+* Displays cities receiving the highest investment.
+
+#### 3. Top 10 Industries by Funding
+
+* Bar Chart
+* Highlights industries attracting maximum funding.
+
+#### 4. Top 10 Startups by Funding
+
+* Bar Chart
+* Shows startups receiving the highest investments.
+
+#### 5. Top Investors
+
+* Bar Chart
+* Displays investors with maximum investment activity.
+
+---
+
+### Download Feature
+
+Users can download filtered datasets in CSV format for further analysis.
+
+---
+
+# 8. Workflow
+
+```
+Dataset
+      ↓
+Data Cleaning
+      ↓
+Feature Engineering (Year)
+      ↓
+Filtering
+      ↓
+KPI Calculation
+      ↓
+Interactive Charts
+      ↓
+Dashboard
+```
+
+---
+
+# 9. Libraries Used
+
+```python
+pandas
+streamlit
+plotly.express
+numpy
+```
+
+---
+
+# 10. Key Insights
+
+* Funding trends vary significantly across years.
+* Metro cities receive the majority of startup investments.
+* Technology-related industries attract the highest funding.
+* Investment types influence funding patterns.
+* Certain investors consistently fund multiple startups.
+
+---
+
+# 11. Advantages
+
+* Interactive dashboard
+* Easy-to-use filters
+* Real-time data exploration
+* Quick business insights
+* Professional visualization
+* Downloadable reports
+
+---
+
+# 12. Limitations
+
+* Dataset depends on available historical funding records.
+* Missing values may affect some analyses.
+* Dashboard is limited to the uploaded dataset.
+* Real-time funding updates are not included.
+
+---
+
+# 13. Future Enhancements
+
+* Live funding data integration using APIs
+* Predictive analysis using Machine Learning
+* Startup recommendation system
+* Investor network visualization
+* Geographic map visualizations
+* Advanced search functionality
+* User authentication
+* Export reports in PDF and Excel
+
+---
+
+# 14. Conclusion
+
+The **Startup Funding Landscape in India – Trend and Sector Analysis** project successfully provides an interactive platform for analyzing startup investments. By integrating data preprocessing, visualization, and dynamic filtering in Streamlit, the dashboard enables users to gain meaningful insights into funding trends across cities, industries, investment types, startups, and investors. This project demonstrates practical skills in data analysis, dashboard development, and visualization, making it a valuable portfolio project for aspiring data analysts.
+
+---
+
+## Skills Demonstrated
+
+* Python Programming
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Dashboard Development
+* Streamlit
+* Plotly
+* Pandas
+* Business Intelligence
+* Interactive Filtering
+* Git & GitHub
+
+This report is suitable for submission as a **mini project report** for a college course or as documentation alongside your GitHub repository.
